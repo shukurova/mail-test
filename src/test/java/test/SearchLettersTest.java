@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import page.SearchLettersPage;
 
-public class SearchLettersTest extends WebDriverSettings {
+public class SearchLettersTest extends BaseTest {
     private WebDriver driver;
     private String dataLogin = "noname@gmail.com";
     private String dataPassword = "password";

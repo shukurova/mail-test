@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import page.SendEmailPage;
 
-public class SendEmailTest extends WebDriverSettings {
+public class SendEmailTest extends BaseTest {
     private WebDriver driver;
     private String dataTo = "gordeeva1991@mail.ru";
 
