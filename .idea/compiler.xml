@@ -9,5 +9,8 @@
         <module name="mail-test" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mail-test" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
